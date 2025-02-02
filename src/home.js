@@ -11,4 +11,4 @@ const homeBox = () => {
   introBox.appendChild(hfive);
   centerContent.appendChild(introBox);
 };
-export default homeBox;
+export {homeBox};

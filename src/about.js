@@ -3,11 +3,11 @@ const aboutBox = () => {
     const introBox = document.createElement("div");
     introBox.classList.add("introbox");
     const hthree = document.createElement("h3");
-    hthree.innerHTML = "Welcome to Indian Flavors";
+    hthree.innerHTML = "Contact Us";
     const hfive = document.createElement("h5");
-    hfive.innerHTML = "Experience the best of Indian cuisine!";
+    hfive.innerHTML = "Visit us at: \nPhone: (123) 456-7890 \nEmail: info@filipinorestaurant.com";
     introBox.appendChild(hthree);
     introBox.appendChild(hfive);
     centerContent.appendChild(introBox);
   };
-  export default aboutBox;
+  export {aboutBox};
