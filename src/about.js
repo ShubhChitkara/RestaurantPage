@@ -5,7 +5,7 @@ const aboutBox = () => {
     const hthree = document.createElement("h3");
     hthree.innerHTML = "Contact Us";
     const hfive = document.createElement("h5");
-    hfive.innerHTML = "Visit us at: \nPhone: (123) 456-7890 \nEmail: info@filipinorestaurant.com";
+    hfive.innerHTML = "Visit us at:      Phone: (123) 456-7890      Email: info@filipinorestaurant.com";
     introBox.appendChild(hthree);
     introBox.appendChild(hfive);
     centerContent.appendChild(introBox);
